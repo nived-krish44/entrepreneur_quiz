@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #000000;
+    /* background-image: url("images/enterpreneur6.png");
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover; */
+  }
+  #landing-page {
+    text-align: center;
+    height: 100ch;
+    padding-top:0px;
+    color:white;
+    background-color: #6a14db;
+  }
+  
+  #app {
+    display:none;
+    width:90%;
+    max-width: 600px;
+    margin:100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(#ffffff,#fff6eb);
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10%;
+  }
+  
+  #app h1 {
+    font-size:25px;
+    color:#000000;
+    font-weight:600;
+    border-bottom:1px solid #333;
+    padding-bottom: 30px;
+    margin-top: 0;
+  }
+  
+  #quiz {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  #quiz h2{
+    font-size:18px;
+    font-weight: 600;
+  }
+  #question{
+    color:rgb(5, 5, 5);
+  }
+  .qbtn{
+    background: #fff;
+    color:#222;
+    font-weight:500;
+    width:100%;
+    border: 1px solid #222;
+    padding:10px;
+    margin:10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+.qbtn:hover:not([disabled]){
+  background:#222;
+  color:#fff;
+}
+.qbtn:disabled{
+  cursor:no-drop;
+}
+#next-btn{
+  background: #001e4d;
+  color:#fff;
+  font-weight:500;
+  width:150px;
+  border:0;
+  padding :10px;
+  margin:20px auto 0;
+  border-radius:4px;
+  cursor:pointer;
+  display:none;
+
+}
+
+/* ----result */
+#result{
+  display:none;
+  /* padding-left:30%; */
+  text-align: center;
+  height: 100vh;
+  width:80%;
+  padding-left:16%;
+  position: relative;
+}
+
+/* #result:hover{
+  transform: translateY(10px);
+  width: 500px;
+} */
+#result2{
+  display:none;
+  /* padding-left:30%; */
+  text-align: center;
+  height: 100vh;
+  width:80%;
+  padding-left:16%;
+  position: relative;
+}
+#result3{
+  display:none;
+  /* padding-left:30%; */
+  text-align: center;
+  height: 100vh;
+  width:80%;
+  padding-left:16%;
+  position: relative;
+}
+#result4{
+  display:none;
+  text-align: center;
+  height: 100vh;
+  width:80%;
+  padding-left:16%;
+  position: relative;
+}
+#result5{
+  display:none;
+  text-align: center;
+  height: 100vh;
+  width:80%;
+  padding-left:16%;
+  position: relative;
+}
+.heading{
+  padding-left:0%;
+  text-shadow: #000000;
+  font-weight: bolder;
+  font-size:40px;
+
+}
+.heading span{
+  color: #f04461;
+  text-shadow: #000000;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+}
+.core_desire{
+  background-color: #ff9393;
+}
+.core_fear{
+  background-color: #eda20a;
+}
+.core_priority{
+  background-color: #77890e;
+}
+h2{
+  text-decoration: underline;
+}
+.maker{
+  display: flex;
+  align-items: center;
+  padding-left:0px;
+  text-align: center;
+  padding-top: 0px;
+  background-color: #222;
+  color: #fff6eb;
+}
+.image{
+  width:300px;
+  height:200px;
+}
+.content{
+  margin-right: 20px;
+}
+.content h1{
+  color:#f04461;
+}
+/* strength and weakness */
+#strength_weakness{
+  padding: 30px 0;
+  background-color: #fff6eb;
+}
+.strength_weakness-list{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap:40px;
+  margin-top: 50px;
+}
+.strength_weakness-list div{
+  background: #3d3c3c;
+  padding:40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: 0.5s;
+  color:#fff6eb;
+}
+.strength_weakness-list h2{
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(250, 9, 9);
+  margin-bottom: 20px;
+}
+.strength_weakness-list a{
+  text-decoration: dotted;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  margin-top: 18px;
+  display:inline-block;
+
+}
+
+
+.strength_weakness-list div:hover{
+  color: rgb(245, 245, 245);
+  background-color: rgb(0, 0, 0);
+  transform: translateY(-10px);
+}
+.list{
+  display:inline-block;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  /* list-style-position: inside; */
+}

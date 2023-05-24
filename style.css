@@ -14,10 +14,58 @@
     text-align: center;
     height: 100ch;
     padding-top:0px;
-    color:white;
-    background-color: #6a14db;
+    color:rgb(211, 209, 209);
+    background-color: #000000;
   }
-  
+  .intro{
+    position: relative;
+    color:rgb(255, 255, 255);
+    font-family: 'Playfair', serif;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  .intro h1{
+    text-decoration: underline;
+    text-decoration-color: #fec300;
+  }
+  .intro_sentence{
+    font-family: 'Playfair', serif;
+    margin-top: -1%;
+    font-size: 20px;
+    position:relative;
+  }
+  .intro_side{
+    font-family: 'Playfair', serif;
+    margin-left: 50%;
+    text-decoration:none;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bold;
+    position:relative;
+    margin-top:-30%;
+  }
+  .intro_side span{
+    color:#f88705
+  }
+  #start-btn{
+    color:#f04461;
+    background-color: #000000;
+    width:100px;
+    font-size: larger;
+    /* position:relative; */
+    margin-top: 3%;
+    margin-left:50%;
+    /* box-shadow: #f04461; */
+
+  }
+  .right{
+    margin-top:-5%;
+  }
+  .right img{
+    width:30%;
+    height: 20%;
+    margin-right:60%;
+  }
   #app {
     display:none;
     width:90%;
@@ -26,7 +74,7 @@
     border-radius: 10px;
     padding: 30px;
     text-align: center;
-    background: linear-gradient(#ffffff,#fff6eb);
+    background: linear-gradient(#eb9a05,#24211d);
     background-color: rgba(255, 255, 255, 0.5);
     margin-bottom: 10%;
   }
@@ -53,7 +101,7 @@
   }
   .qbtn{
     background: #fff;
-    color:#222;
+    color:#000000;
     font-weight:500;
     width:100%;
     border: 1px solid #222;

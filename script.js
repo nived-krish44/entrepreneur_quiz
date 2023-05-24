@@ -564,6 +564,7 @@ const questions = [
     result3.style.display = "none";
     result4.style.display = "none";
     result5.style.display = "none";
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     while (answerButtons.firstChild) {
       answerButtons.removeChild(answerButtons.firstChild);
     }
@@ -625,7 +626,7 @@ const questions = [
     head.style.display = "none";
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
-    questionElement.innerHTML = `Your dominant trait is here.... ! scroll down...`;
+    questionElement.innerHTML = `whannahh try again....`;
 
 
   }

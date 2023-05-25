@@ -45,411 +45,411 @@ const questions = [
           { text: "Very True of me", score: 4 },
         ],
       },
-      // {
-      //   question: "Following the process",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Spotting the right opportunity",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Having the most unique idea",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Having the right team/mix of people",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Having the required expertise",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Plannig and executing",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Spotting opportunities and adapting ideas",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Thinking wildly and imaginatively",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Relating to people",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Being able to master something better than others",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "See whether it fits my plan of action",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "compare the costs and benefits of all actions quickly",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Go by my instinct and do what feels right",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Bring my team together and include everyones's opininon before taking a decision",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Do thorough research and gather all necessary data and facts.",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Things going out of control or becoming chaotic.",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "The project not making any money.",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Running out of original ideas halfway through the project",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "People in the team not being able to work together in sync",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Not having the knowledge to successfully finish the project",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Use my plan B that I had already created",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Make the most of the situation and adapt quickly",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Think of how to turn the challenge into an opportunity",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Get the team together and brainstorm to find an appropriate solution",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Face the challenge with the confidence that I can get through it",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "The project is executed effectively and on time.",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "The project makes profit and financial sense",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "The project has the most innovative solution",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "The team members complement each other's strenghts",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "The end result is of the highest quality , with attention to detail ",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "I see a much more efficient solution to the problem",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "I see an opportunity to build a profitable business quickly",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "I have an idea that will change the world",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "I want to solve society's problems through my venture",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "I have the expertise and knowledge to deliver a good product / service",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Henry Ford, the founder of ford motor company",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Richard Branson, founder of virgin Hyperloops",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Steve Jobs founder of Apple and Pixar",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Mohammad Yunus,Founder of Grameen Bank",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "kiran Mazumdar shaw, founder of Biocon",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Life is a well-planned adventure",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Life is about making the most of every moment",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Life is about living my own dreams",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Life is about helping other people",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
-      // {
-      //   question: "Life is about finding out what I am best at and doing it",
-      //   answers: [
-      //     { text: "Not very true of me", score: 1 },
-      //     { text: "Somewhat true of me", score: 2 },
-      //     { text: "True of me.", score: 3 },
-      //     { text: "Very True of me", score: 4 },
-      //   ],
-      // },
+      {
+        question: "Following the process",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Spotting the right opportunity",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Having the most unique idea",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Having the right team/mix of people",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Having the required expertise",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Plannig and executing",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Spotting opportunities and adapting ideas",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Thinking wildly and imaginatively",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Relating to people",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Being able to master something better than others",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "See whether it fits my plan of action",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "compare the costs and benefits of all actions quickly",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Go by my instinct and do what feels right",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Bring my team together and include everyones's opininon before taking a decision",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Do thorough research and gather all necessary data and facts.",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Things going out of control or becoming chaotic.",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "The project not making any money.",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Running out of original ideas halfway through the project",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "People in the team not being able to work together in sync",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Not having the knowledge to successfully finish the project",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Use my plan B that I had already created",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Make the most of the situation and adapt quickly",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Think of how to turn the challenge into an opportunity",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Get the team together and brainstorm to find an appropriate solution",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Face the challenge with the confidence that I can get through it",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "The project is executed effectively and on time.",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "The project makes profit and financial sense",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "The project has the most innovative solution",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "The team members complement each other's strenghts",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "The end result is of the highest quality , with attention to detail ",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "I see a much more efficient solution to the problem",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "I see an opportunity to build a profitable business quickly",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "I have an idea that will change the world",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "I want to solve society's problems through my venture",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "I have the expertise and knowledge to deliver a good product / service",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Henry Ford, the founder of ford motor company",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Richard Branson, founder of virgin Hyperloops",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Steve Jobs founder of Apple and Pixar",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Mohammad Yunus,Founder of Grameen Bank",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "kiran Mazumdar shaw, founder of Biocon",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Life is a well-planned adventure",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Life is about making the most of every moment",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Life is about living my own dreams",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Life is about helping other people",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
+      {
+        question: "Life is about finding out what I am best at and doing it",
+        answers: [
+          { text: "Not very true of me", score: 1 },
+          { text: "Somewhat true of me", score: 2 },
+          { text: "True of me.", score: 3 },
+          { text: "Very True of me", score: 4 },
+        ],
+      },
 
   ];
   

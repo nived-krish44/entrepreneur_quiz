@@ -6,16 +6,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="landing-page">
-        <div class="intro">
-            <h1>Entrepreneural Quiz</h1>
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#start-btn">QUIZ</a></li>
+                    <i class="fa-solid fa-xmark"  onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
             </div>
-            <div class="right"><img src="images/idea.jpeg"></div>
+            <div class="left">
+                <!-- <img src="images/idea.jpeg"> -->
+                <h1>DISCOVER.<br/></h1>
+                <h1>UNLEASH.<br/></h1>
+                <h1>ACHIEVE.<br/></h1>
+            </div>
             <div class="intro_side">
                 <h3>
-                    "Unlock Your <span>Entrepreneurial Genius:</span> Test Your Business Acumen in Our Captivating Quiz!"</h3>
+                    "Unlock Your <span>Entrepreneurial Genius:</span>"</h3>
             </div>
 
             <div class="intro_sentence">
@@ -23,7 +37,15 @@
             <!-- <p>Entrepreneurship is the art of turning dreams into reality. It's about daring to challenge the status quo, unleashing creativity, and making a lasting impact. Entrepreneurs are the architects of change, weaving together unique ideas and skills to build something extraordinary. They embrace risk, learn from failures, and create opportunities for economic growth and social change. Entrepreneurship is a symphony of passion, purpose, and the pursuit of a brighter future. It's a celebration of human potential and the power to shape the world.</p> -->
             </div>
         <button id="start-btn">Start Quiz</button>
+        <div id="about">
+            <span>ENTREPRENEURSHIP.<br/></span>
+            <h1> The art of turning ideas into impactful ventures.</h1>
+        </div>
+        <div class="about_sentence">
+            <p>Unlock the power of self-discovery with our innovative quiz that unravels the secrets of your entrepreneurial style. Embark on a journey of exploration as you delve into thought-provoking questions tailored to assess your unique traits, strengths, and aspirations. From strategic planners to visionary dreamers, our quiz will uncover the essence of your entrepreneurial spirit. Gain valuable insights and a deeper understanding of your inherent qualities that shape your path to success. Unleash your potential, embrace your entrepreneurial style, and chart a course towards a future filled with possibilities. Are you ready to discover the blueprint of your entrepreneurial greatness? Take the quiz and embark on an enlightening adventure today.</p>
+        </div>
       </div>
+
             <div id="result">
                 <!-- <img src="images/m1.png"> -->
                 <h1 class="heading">YOU ARE A <br/><span>MAKER</span></h1>
